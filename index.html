@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Clase 01</title>
+</head>
+<body>
+    <form action="#" method="POST" id="formulario">
+        <h1 id="titulo">Formulario de Inscripción</h1>
+        <label for="name">Ingresa tu nombre:</label>
+        <input type="text" id="userName" name="name" placeholder="Escriba aquí..."><br>
+        <p id="errorNombre"></p>
+        <label for="lastname">Ingresa tu apellido:</label>
+        <input type="text" id="userLastname" name="lastname" placeholder="Escriba aquí..."><br><br>
+        <label for="mail">Ingresa tu email:</label>
+        <input type="email" id="userMail" name="mail" placeholder="Escriba aquí..."><br> <br>
+        <p id="errorMail"></p>
+        <label for="check">¿Deseas inscribirte a nuestro newsletter?</label>
+        <input type="checkbox" id="userCheck" name="check"><br> <br>
+        <button type="submit">Inscribirme</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
